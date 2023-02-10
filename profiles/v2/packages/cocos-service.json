@@ -1,0 +1,103 @@
+{
+  "__version__": "3.0.5",
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "eb7881",
+        "services": []
+      },
+      "ios": {
+        "configID": "eb7881",
+        "services": []
+      }
+    },
+    "taskOptionsMap": {
+      "1675368221136": {
+        "configID": "eb7881",
+        "services": []
+      },
+      "1675368818461": {
+        "configID": "eb7881",
+        "services": [],
+        "__version__": "3.0.5"
+      },
+      "1675373632246": {
+        "configID": "eb7881",
+        "services": [],
+        "__version__": "3.0.5"
+      },
+      "1675377625201": {
+        "configID": "eb7881",
+        "services": [],
+        "__version__": "3.0.5"
+      },
+      "1675377662747": {
+        "configID": "eb7881",
+        "services": [],
+        "__version__": "3.0.5"
+      },
+      "1675391664002": {
+        "configID": "eb7881",
+        "services": [],
+        "__version__": "3.0.5"
+      },
+      "1675392432230": {
+        "configID": "eb7881",
+        "services": [],
+        "__version__": "3.0.5"
+      }
+    },
+    "__version__": "1.3.4"
+  },
+  "builder-options": {
+    "configID": "eb7881",
+    "services": [
+      {
+        "service_id": "235",
+        "service_component_name": "service-analytics",
+        "builder": "/Users/abhishekrawat/.CocosCreator/.service/analytics/builder/builder.js",
+        "enable": false,
+        "params": {}
+      }
+    ],
+    "__version__": "3.0.5"
+  },
+  "options": {
+    "ios": {
+      "configID": "eb7881",
+      "services": [
+        {
+          "service_id": "235",
+          "service_component_name": "service-analytics",
+          "builder": "/Users/abhishekrawat/.CocosCreator/.service/analytics/builder/builder.js",
+          "enable": false,
+          "params": {}
+        }
+      ]
+    },
+    "android": {
+      "configID": "eb7881",
+      "services": [
+        {
+          "service_id": "235",
+          "service_component_name": "service-analytics",
+          "builder": "/Users/abhishekrawat/.CocosCreator/.service/analytics/builder/builder.js",
+          "enable": false,
+          "params": {}
+        }
+      ]
+    },
+    "mac": {
+      "configID": "eb7881",
+      "services": [
+        {
+          "service_id": "235",
+          "service_component_name": "service-analytics",
+          "builder": "/Users/abhishekrawat/.CocosCreator/.service/analytics/builder/builder.js",
+          "enable": false,
+          "params": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "__version__": "1.0.2",
+  "builder": {
+    "taskOptionsMap": {
+      "1675368221136": {
+        "encrypted": false,
+        "xxteaKey": "a1MS3sZnFMjaEfuk",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1675368818461": {
+        "encrypted": false,
+        "xxteaKey": "a1MS3sZnFMjaEfuk",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1675373632246": {
+        "encrypted": false,
+        "xxteaKey": "d8j54lzfBFZ6FH9W",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1675377625201": {
+        "encrypted": false,
+        "xxteaKey": "d8j54lzfBFZ6FH9W",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1675377662747": {
+        "encrypted": false,
+        "xxteaKey": "d8j54lzfBFZ6FH9W",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1675391664002": {
+        "encrypted": false,
+        "xxteaKey": "d8j54lzfBFZ6FH9W",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1675392432230": {
+        "encrypted": false,
+        "xxteaKey": "d8j54lzfBFZ6FH9W",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      }
+    },
+    "__version__": "1.3.4"
+  },
+  "options": {
+    "ios": {
+      "encrypted": false,
+      "xxteaKey": "e8sQGHQZVJyb8nqe",
+      "compressZip": false,
+      "JobSystem": "none",
+      "__version__": "1.0.2"
+    }
+  }
+}

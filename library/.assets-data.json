@@ -1,0 +1,47 @@
+{
+  "8094ee3f-4dac-46b1-8758-ae299464658f": {
+    "url": "db://assets/gameplay.scene",
+    "value": {
+      "depends": [
+        "8094ee3f-4dac-46b1-8758-ae299464658f",
+        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941"
+      ]
+    }
+  },
+  "12c8ab19-e10d-425e-8df5-4df7874f697a": {
+    "url": "db://assets/Gameplay.ts",
+    "value": {}
+  },
+  "6087dc9e-af49-4ed3-96fa-f6018bc8a514": {
+    "url": "db://assets/gameplay.ts",
+    "value": {}
+  },
+  "e43deb86-a3bd-41b5-a9bd-8f13bd414266": {
+    "url": "db://assets/Gameplay.ts",
+    "value": {}
+  },
+  "1fef4de2-3038-43ac-b02b-4b510e3f19ea": {
+    "url": "db://assets/Gameplay.ts",
+    "value": {}
+  }
+}

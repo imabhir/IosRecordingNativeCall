@@ -1,0 +1,198 @@
+{
+  "__version__": "1.0.0",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "ios",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "ios",
+      "useSplashScreen": false
+    },
+    "options": {
+      "ios": {
+        "packageName": "com.cocos.recordtest",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "14.2",
+        "__version__": "1.0.0"
+      }
+    },
+    "taskOptionsMap": {
+      "1675368221136": {
+        "packageName": "com.cocos.ios",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": false,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": false,
+          "simulator": true
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.0"
+      },
+      "1675368818461": {
+        "packageName": "com.cocos.ios",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": false,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.0"
+      },
+      "1675373632246": {
+        "packageName": "com.cocos.ios",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": false,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.0"
+      },
+      "1675377625201": {
+        "packageName": "com.cocos.ios",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": false,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "14.2",
+        "__version__": "1.0.0"
+      },
+      "1675377662747": {
+        "packageName": "com.cocos.ios",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": false,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "14.2",
+        "__version__": "1.0.0"
+      },
+      "1675391664002": {
+        "packageName": "com.cocos.recordtest",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": false,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "14.2",
+        "__version__": "1.0.0"
+      },
+      "1675392432230": {
+        "packageName": "com.cocos.recordtest",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "14.2",
+        "__version__": "1.0.0"
+      }
+    },
+    "__version__": "1.3.4"
+  },
+  "options": {
+    "ios": {
+      "packageName": "com.cocos.IOSRecoder",
+      "renderBackEnd": {
+        "metal": true
+      },
+      "skipUpdateXcodeProject": false,
+      "orientation": {
+        "portrait": true,
+        "upsideDown": false,
+        "landscapeRight": true,
+        "landscapeLeft": true
+      },
+      "osTarget": {
+        "iphoneos": true,
+        "simulator": true
+      },
+      "targetVersion": "14.0",
+      "__version__": "1.0.0",
+      "developerTeam": "SVH9LJL5H7"
+    }
+  },
+  "common": {
+    "buildPath": "project://build",
+    "outputName": "ios",
+    "mainBundleCompressionType": "none",
+    "platform": "ios",
+    "mainBundleIsRemote": false
+  }
+}
