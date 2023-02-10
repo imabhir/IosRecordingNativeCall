@@ -23,7 +23,7 @@
     "_prefab": null,
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 44
+      "__id__": 45
     },
     "_id": "8094ee3f-4dac-46b1-8758-ae299464658f"
   },
@@ -45,13 +45,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 41
-      },
-      {
         "__id__": 42
       },
       {
         "__id__": 43
+      },
+      {
+        "__id__": 44
       }
     ],
     "_prefab": null,
@@ -193,9 +193,6 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 37
-      },
-      {
         "__id__": 38
       },
       {
@@ -203,6 +200,9 @@
       },
       {
         "__id__": 40
+      },
+      {
+        "__id__": 41
       }
     ],
     "_prefab": null,
@@ -1342,7 +1342,11 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "clickEvents": [],
+    "clickEvents": [
+      {
+        "__id__": 37
+      }
+    ],
     "_interactable": true,
     "_transition": 2,
     "_normalColor": {
@@ -1395,6 +1399,16 @@
       "__id__": 30
     },
     "_id": "6drEpk8KBJxZxgBL7RiO6r"
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 5
+    },
+    "component": "",
+    "_componentId": "1fef43iMDhDrLArS1EOPxnq",
+    "handler": "stopAudioBtn",
+    "customEventData": ""
   },
   {
     "__type__": "cc.UITransform",
@@ -1555,19 +1569,19 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 45
-    },
-    "shadows": {
       "__id__": 46
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 47
     },
-    "fog": {
+    "_skybox": {
       "__id__": 48
     },
-    "octree": {
+    "fog": {
       "__id__": 49
+    },
+    "octree": {
+      "__id__": 50
     }
   },
   {

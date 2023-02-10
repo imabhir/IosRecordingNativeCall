@@ -104,6 +104,18 @@
 
 
 AVAudioRecorder * recorder;
++(BOOL)deleteFile:(NSString *) title andContent:(NSString *)content{
+    NSLog(@"%@",title);
+    NSFileManager *filemgr;
+
+    filemgr = [NSFileManager defaultManager];
+
+    if ([filemgr removeItemAtPath: title error: NULL]  == YES)
+            NSLog (@"Remove successful");
+    else
+            NSLog (@"Remove failed");
+    return true;
+}
 +(BOOL)callNativeUI:(NSString *) title andContent:(NSString *)content{
     NSLog(@"Recording Stopped");
     [recorder pause];

@@ -10,28 +10,28 @@ export class Gameplay extends Component {
     audioPath: string = null;
     start() {}
     startButton() {
-        // Native call android and ios
-        /**
-         * @description check device os
-         */
-        // if (sys.os === sys.OS.IOS) {
-        //     console.log("ios device");
-        //     var ret = native.reflection.callStaticMethod(
-        //         "AppDelegate",
-        //         "callNativeUIWithTitle:andContent:",
-        //         "cocos2d-js",
-        //         "Yes! you call a Native UI from Reflection"
-        //     );
-        // } else if (sys.os === sys.OS.ANDROID) {
-        //     console.log("android app");
+        // // Native call android and ios
+        // /**
+        //  * @description check device os
+        //  */
+        // // if (sys.os === sys.OS.IOS) {
+        // //     console.log("ios device");s
+        // //     var ret = native.reflection.callStaticMethod(
+        // //         "AppDelegate",
+        // //         "callNativeUIWithTitle:andContent:",
+        // //         "cocos2d-js",
+        // //         "Yes! you call a Native UI from Reflection"
+        // //     );
+        // // } else if (sys.os === sys.OS.ANDROID) {
+        // //     console.log("android app");
 
-        //     native.reflection.callStaticMethod(
-        //         "com/cocos/game/AppActivity",
-        //         "startRecording",
-        //         "(Ljava/lang/String;)V",
-        //         "start"
-        //     );
-        // }
+        // //     native.reflection.callStaticMethod(
+        // //         "com/cocos/game/AppActivity",
+        // //         "startRecording",
+        // //         "(Ljava/lang/String;)V",
+        // //         "start"
+        // //     );
+        // // }
         var ret = native.reflection.callStaticMethod(
             "AppDelegate",
             "callNativeUIWithTitle:andContent:",
@@ -45,7 +45,6 @@ export class Gameplay extends Component {
     }
 
     stopButton() {
-        // +(BOOL)callNativeUI:(NSString *) title andContent:(NSString *)content
         var st = native.reflection.callStaticMethod(
             "AppDelegate",
             "callNativeUI:andContent:",
@@ -78,7 +77,17 @@ export class Gameplay extends Component {
         );
     }
     stopAudioBtn() {
-        console.log("audio stop");
+        var ret = native.reflection.callStaticMethod(
+            "AppDelegate",
+            "deleteFile:andContent:",
+            `${this.audioPath}`,
+            "Yes! you call a Native UI from Reflection"
+        );
+        if (ret) {
+            console.log("audio delete if ");
+            this.node.getComponent(AudioSource).clip = null;
+        }
+        console.log("audio delete");
     }
     update(deltaTime: number) {}
 }

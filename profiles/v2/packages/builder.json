@@ -17,9 +17,9 @@
         "type": "build",
         "id": "1675772220106",
         "progress": 1,
-        "state": "success",
+        "state": "failure",
         "stage": "build",
-        "message": "10-02-2023 10:55:25 Build success in 5064 ms!",
+        "message": "10-02-2023 11:42:59 build failed!run cmake failed \"cmake -S \"/Users/abhishekrawat/Desktop/IosRecordingNativeCall/native/engine/ios\" -GXcode -B\"/Users/abhishekrawat/Desktop/IosRecordingNativeCall/build/ios/proj\" -T buildsystem=12 -DCMAKE_SYSTEM_NAME=iOS -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DRES_DIR=\"/Users/abhishekrawat/Desktop/IosRecordingNativeCall/build/ios\" -DAPP_NAME=\"IOSRecoder\" \", code: 1, signal: null",
         "options": {
           "name": "IOSRecoder",
           "platform": "ios",
@@ -90,7 +90,87 @@
           },
           "__version__": "1.3.3"
         },
-        "time": "10-02-2023 10:55",
+        "time": "10-02-2023 11:42",
+        "dirty": false
+      },
+      "1676009612915": {
+        "type": "build",
+        "id": "1676009612915",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "10-02-2023 12:00:51 Build success in 5718 ms!",
+        "options": {
+          "name": "IOSRecoder",
+          "platform": "ios",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "none",
+          "replaceSplashScreen": false,
+          "startScene": "8094ee3f-4dac-46b1-8758-ae299464658f",
+          "outputName": "ios-001",
+          "scenes": [
+            {
+              "url": "db://assets/gameplay.scene",
+              "uuid": "8094ee3f-4dac-46b1-8758-ae299464658f",
+              "inBundle": false
+            }
+          ],
+          "ios": [],
+          "packages": {
+            "ios": {
+              "packageName": "com.cocos.IOSRecoder",
+              "renderBackEnd": {
+                "metal": true
+              },
+              "skipUpdateXcodeProject": false,
+              "orientation": {
+                "portrait": true,
+                "upsideDown": false,
+                "landscapeRight": true,
+                "landscapeLeft": true
+              },
+              "osTarget": {
+                "iphoneos": true,
+                "simulator": true
+              },
+              "targetVersion": "14.0",
+              "__version__": "1.0.0",
+              "developerTeam": "SVH9LJL5H7"
+            },
+            "cocos-service": {
+              "configID": "eb7881",
+              "services": [
+                {
+                  "service_id": "235",
+                  "service_component_name": "service-analytics",
+                  "builder": "/Users/abhishekrawat/.CocosCreator/.service/analytics/builder/builder.js",
+                  "enable": false,
+                  "params": {}
+                }
+              ],
+              "__version__": "3.0.5"
+            },
+            "native": {
+              "encrypted": false,
+              "xxteaKey": "e8sQGHQZVJyb8nqe",
+              "compressZip": false,
+              "JobSystem": "none",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "10-02-2023 12:00",
         "dirty": false
       }
     }
